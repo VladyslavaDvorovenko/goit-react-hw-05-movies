@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  box-shadow: 2px solid wheat;
+  background-color: gainsboro;
+}
+
+.nav {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+
+.link {
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: blueviolet;
+  transition: transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}

@@ -1,0 +1,52 @@
+.castList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.castItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+}
+
+.imgBox {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.img,
+.emptyImg {
+  height: 300px;
+  border-radius: 5px;
+}
+
+.castName {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  color: black;
+}
+
+.castCharacter {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.863);
+}

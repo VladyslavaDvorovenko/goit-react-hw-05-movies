@@ -1,0 +1,31 @@
+.reviewsContainer {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(137, 43, 226, 0.253);
+  background-color: blanchedalmond;
+  border-radius: 5px;
+}
+
+.reviewsInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+.reviewsAuthor {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  font-size: 23px;
+  font-weight: 700;
+  color: black;
+}
