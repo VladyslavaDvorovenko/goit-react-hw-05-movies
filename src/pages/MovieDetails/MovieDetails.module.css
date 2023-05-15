@@ -5,11 +5,12 @@
   padding-bottom: 10px;
   border-radius: 5px;
   border-bottom: 2px solid rgba(137, 43, 226, 0.253);
-  background-color: blanchedalmond;
+  background-color: whitesmoke;
 }
 
 .srcContainer {
   display: block;
+
   min-width: 400px;
   max-width: 400px;
 }
